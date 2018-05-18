@@ -35,7 +35,7 @@
 # end of SGE stuff
 #########################################################
 # now execute my job:
-ARRAY=( head W1_R W2_R W3_R T1_R T2_R T3_R)
+ARRAY=(head wt_1 wt_2 wt_3 mt_1 mt_2 mt_3)
 #  echo ${ARRAY[$SGE_TASK_ID]}
 
 DIR=/psc/home/sslv/KIM0001
